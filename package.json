@@ -1,0 +1,24 @@
+{
+  "name": "mailer",
+  "version": "0.0.1",
+  "description": "Mailer serverless service (fission + kube)",
+  "main": "index.js",
+  "dependencies": {
+    "nodemailer": "^4.6.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/ -d dist/ --source-maps inline --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/callistoapp/callisto-mailer"
+  },
+  "author": "Clément Mondion (@xeivieni)",
+  "license": "ISC"
+}
